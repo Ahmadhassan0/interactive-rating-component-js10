@@ -16,8 +16,6 @@ ratings.forEach((rating) => {
 
         // Step 3: Update the displayed rating value
         ratePoint.innerText = e.currentTarget.innerText;
-        console.log('Selected rating:', e.currentTarget.innerText);
-        console.log('Displayed rating:', ratePoint.innerText);
     });
 });
 
